@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function(){
 			divText.textContent += ' ';
 		}
 		if(event.target.classList.contains('bspace')){
-			divText.textContent = divText.textContent.slice(0, divText.textContent.length - 1)
+			divText.textContent = divText.textContent.slice(0, divText.textContent.length - 1);
 		}
 	});
 });
